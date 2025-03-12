@@ -12,4 +12,8 @@ num2 = int(input("Enter second number: "))
 
 # multiply the two numbers
 # print the product of the two numbers
+
+product = num1 * num2
+print("The product of the two numbers is: ", product)
+
 # end
