@@ -5,6 +5,11 @@
 # send message instruction to user
 # ask user to input first number
 # ask user to input second number
+
+print("6. First number raised to the second number")
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
 # make num1 ^ num2
 # print the result of the first number raised to the second number
 # end
