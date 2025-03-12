@@ -12,4 +12,8 @@ num2 = float(input("Enter second number: "))
 
 # divide the two numbers
 # print the quotient of the two numbers
+
+quotient = num1 / num2
+print("The quotient of the two numbers is: ", quotient)
+
 # end
