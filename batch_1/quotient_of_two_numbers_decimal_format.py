@@ -5,6 +5,11 @@
 # send message instruction to user
 # ask user to input first number
 # ask user to input second number
+
+print("5. Quotient of two numbers")
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
 # divide the two numbers
 # print the quotient of the two numbers
 # end
