@@ -4,5 +4,9 @@
 
 # send message instruction to user
 # range(10), / with 2, if remainder is not 0, count it
+
+print("8. Count of Odd Numbers Among Ten Inputs")
+total_odd = sum(1 for i in range(10) if int(input(f"Enter number {i + 1}: ")) % 2 != 0)
+
 # print the count of odd numbers
 # end
