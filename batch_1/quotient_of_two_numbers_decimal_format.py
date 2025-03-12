@@ -1,6 +1,6 @@
 # Inducil, Raphael CLouiee A.
 # 3-13-06
-# batch 1, Prog04: Create a program that ask user to input 2 numbers. Print the product of the two numbers.
+# batch 1, Prog05: Create a program that ask user to input 2 numbers. Print the quotient of the two numbers with the decimal point
 
 # send message instruction to user
 # ask user to input first number
