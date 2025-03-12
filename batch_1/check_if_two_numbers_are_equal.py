@@ -13,4 +13,10 @@ num2 = int(input("Enter second number: "))
 
 # condition to check if the two numbers are equal
 # print "Equal" if the two numbers are equal
+
+if num1 == num2:
+    print("Equal")
+else:
+    print("Not equal")
+    
 # end
