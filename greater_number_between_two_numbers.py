@@ -13,4 +13,12 @@ num2 = int(input("Enter second number: "))
 
 # compare the two numbers
 # print the bigger number
+
+if num1 > num2:
+    print("The greater number is: ", num1)
+elif num1 < num2:
+    print("The greater number is: ", num2)
+else:
+    print("The numbers and are equal")
+
 # end
