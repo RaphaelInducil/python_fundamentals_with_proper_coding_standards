@@ -5,6 +5,12 @@
 # send message instruction to user
 # ask user to input first number
 # ask user to input second number
+
+print("2. Check if two numbers are equal")
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
 # condition to check if the two numbers are equal
 # print "Equal" if the two numbers are equal
 # end
