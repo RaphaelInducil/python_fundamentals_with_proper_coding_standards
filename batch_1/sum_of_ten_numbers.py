@@ -9,5 +9,6 @@ print("7. Sum of Ten Numbers")
 # range(10) ask for input, sum it up
 
 total_sum = sum(int(input(f"Enter number {i + 1}: ")) for i in range(10))
+print("The sum of the ten numbers is: ", total_sum)
 
 # display output
