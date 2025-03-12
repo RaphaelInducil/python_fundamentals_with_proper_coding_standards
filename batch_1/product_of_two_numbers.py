@@ -5,6 +5,11 @@
 # send message instruction to user
 # ask user to input first number
 # ask user to input second number
+
+print("4. Product of two numbers")
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
 # multiply the two numbers
 # print the product of the two numbers
 # end
