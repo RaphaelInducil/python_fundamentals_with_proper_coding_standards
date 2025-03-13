@@ -3,6 +3,10 @@
 # batch 2, Prog02: Create a program that ask user to input 2 numbers. Print "Not Equal" when the numbers are not the same.
 
 # user input 2 numbers
+
+a = int(input("Choose a number: "))
+b = int(input("Choose a second number: "))
+
 # compare 2 numbers
 # print "not equal" if not same number
 # end
