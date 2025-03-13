@@ -1,5 +1,5 @@
 # Inducil, Raphael CLouiee A.
-# 3-13-06
+# 3-13-25
 # batch 1, Prog08: Create a program that ask user to input 10 numbers. Print how many are odd numbers.
 
 # send message instruction to user

@@ -1,5 +1,5 @@
 # Inducil, Raphael CLouiee A.
-# 3-12-06
+# 3-12-25
 # batch 1, Prog02: Create a program that ask user to input 2 numbers. Print "Equal" when the numbers are the same.
 
 # send message instruction to user

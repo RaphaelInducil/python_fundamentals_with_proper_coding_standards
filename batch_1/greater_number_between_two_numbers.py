@@ -1,5 +1,5 @@
 # Inducil, Raphael CLouiee A.
-# 3-12-06
+# 3-12-25
 # batch 1, Prog01: Create a program that ask user to input 2 numbers. Print the bigger number.
 
 # send message instruction to user

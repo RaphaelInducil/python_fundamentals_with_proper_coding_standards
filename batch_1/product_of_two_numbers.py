@@ -1,5 +1,5 @@
 # Inducil, Raphael CLouiee A.
-# 3-13-06
+# 3-13-25
 # batch 1, Prog04: Create a program that ask user to input 2 numbers. Print the product of the two numbers.
 
 # send message instruction to user
