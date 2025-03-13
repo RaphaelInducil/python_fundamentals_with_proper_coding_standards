@@ -4,9 +4,15 @@
 
 # user input 2 numbers
 
-a = int(input("Choose a number: "))
-b = int(input("Choose a second number: "))
+num1 = int(input("Choose a number: "))
+num2 = int(input("Choose a second number: "))
 
 # compare 2 numbers
 # print "not equal" if not same number
+
+if num1 != num2:
+    print("Number", num1, "and", num2, "are not equal")
+else:
+    print(num1, "and", num2, "are equal")
+
 # end
