@@ -11,4 +11,7 @@ for i in range(10):
     numbers.append(num)
 
 # print the result
+
+print("Result:", numbers[0] - sum(numbers[1:]))
+
 # end
