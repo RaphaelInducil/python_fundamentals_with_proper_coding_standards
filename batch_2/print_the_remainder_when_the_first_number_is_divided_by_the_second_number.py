@@ -10,4 +10,7 @@ num2 = int(input("Enter another number: "))
 remainder = num1 % num2
 
 # print the remainder
+
+print("The remainder when", num1, "is divided by", num2, "is", remainder)
+
 # end
