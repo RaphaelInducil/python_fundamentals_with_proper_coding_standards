@@ -1,5 +1,5 @@
 # Inducil, Raphael CLouiee A.
-# 3-12-25
+# 3-13-25
 # batch 2, Prog01: Create a program that ask user to input 2 numbers. Print the smaller number.
 
 # user input 2 numbers
