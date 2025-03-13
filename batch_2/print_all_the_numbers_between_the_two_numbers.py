@@ -8,4 +8,8 @@ num1 = int(input("Choose a number: "))
 num2 = int(input("Enter the second number: "))
 
 # for range num1 to num2, print num1 + 1 until num2
+
+for num in range(num1 + 1, num2):
+    print(num)
+
 # end
