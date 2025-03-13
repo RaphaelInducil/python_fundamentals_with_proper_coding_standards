@@ -8,5 +8,11 @@ num1 = int(input("Enter a number: "))
 num2 = int(input("Enter a second number: "))
 
 # minus num1 to num2
+
+num3 = num1 - num2
+
 # print the difference
+
+print("The difference between", num1, "and", num2, "is", num3)
+
 # end
