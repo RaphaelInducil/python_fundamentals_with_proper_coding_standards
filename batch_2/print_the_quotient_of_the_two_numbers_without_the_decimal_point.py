@@ -10,4 +10,7 @@ num2 = int(input("Enter another number: "))
 quotient = num1 // num2
 
 # print the quotient(int)
+
+print("The quotient of", num1, "and", num2, "is", quotient)
+
 # end
