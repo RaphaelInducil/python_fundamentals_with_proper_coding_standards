@@ -5,4 +5,10 @@
 # send message instruction to user
 # print all the even numbers starting from 0 to 100
 # use for loop
+
+print("9. All the even numbers starting from 0 to 100 are: ")
+for num in range(101):
+    if num % 2 == 0:
+        print(num, end=" ")
+
 # end
