@@ -4,5 +4,10 @@
 
 # user input 2 numbers
 # divide the numbers
+
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter another number: "))
+quotient = num1 // num2
+
 # print the quotient(int)
 # end
