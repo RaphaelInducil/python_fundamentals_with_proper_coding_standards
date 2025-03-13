@@ -4,4 +4,11 @@
 
 # while loop 100, print num, add 1 to num
 # if remainder is not 0 or 5, print output
+
+num = 1
+while num <= 100:
+    if num % 10 != 0 and num % 10 != 5:
+        print(num)
+    num += 1
+
 # end
