@@ -4,4 +4,9 @@
 
 # send message instruction to user
 # for loop, range 101, if remainder is not 0, print output
+
+for num in range(101):
+    if num % 10 != 0:
+        print(num)
+
 # end
