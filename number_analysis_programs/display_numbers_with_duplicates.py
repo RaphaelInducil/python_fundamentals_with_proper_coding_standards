@@ -18,5 +18,13 @@ for i in range(10):
 duplicates = set()
 
 # if num > 1 count the numbers, add to duplicate
+
+for num in numbers:
+    if numbers.count(num) > 1:
+        duplicates.add(num)
+
 # print duplicate list
+
+print("Numbers with duplicates:", list(duplicates))
+
 # end
