@@ -10,10 +10,21 @@ highest = None
 # if num > highest, turn highest into num
 
 while True:
+    try:
         num = int(input("Enter a number (or any non-number to stop): "))
         if highest is None or num > highest:
             highest = num
 
 # error handling for invalid input
+
+    except ValueError:
+        break
+
 # print highest
+
+if highest is not None:
+    print("The highest number is:", highest)
+else:
+    print("No valid numbers were entered.")
+
 # end
