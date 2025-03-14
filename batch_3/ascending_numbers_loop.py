@@ -10,6 +10,7 @@ numbers = []
 # append input value to list holder
 
 while True:
+    try:
         num = int(input("Enter a number: "))
         numbers.append(num)
 
@@ -20,4 +21,9 @@ while True:
         print("Numbers from lowest to highest:", numbers)
 
 # error handling for invalid input
+
+    except ValueError:
+            print("Invalid input. Exiting program.")
+            break
+
 # end
