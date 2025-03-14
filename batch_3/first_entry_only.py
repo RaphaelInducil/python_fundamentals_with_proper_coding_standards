@@ -15,4 +15,13 @@ for i in range(10):
     numbers.append(num)
 
 # if num is not unique, append only the unique numbers
+
+for num in numbers:
+    if num not in unique_numbers:
+        unique_numbers.append(num)
 # print unique numbers
+
+for num in unique_numbers:
+    print(num)
+
+# end
