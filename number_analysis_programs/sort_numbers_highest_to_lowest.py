@@ -18,5 +18,14 @@ while True:
         break
 
 # sort numbers
+
+if numbers:
+    numbers.sort(reverse=True)
+    
 # print sorted numbers
+
+    print("Numbers from highest to lowest:", numbers)
+else:
+    print("No valid numbers were entered.")
+
 # end
