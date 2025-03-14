@@ -9,15 +9,24 @@ lowest = None
 # while loop
 # user input
 
-while true:
-    num = int(input("Enter a number: "))
+while True:
+    try:
+        num = int(input("Enter a number: "))
 
 # if num < lowest
 # turn lowest into num
 
-    if lowest is None or num < lowest:
-        lowest = num
+        if lowest is None or num < lowest:
+            lowest = num
 
 # error handling for invalid input
+
+    except ValueError:
+        print("Invalid input. Exiting program.")
+        break
+
 # print lowest
+
+print("Lowest number:", lowest)
+
 # end
