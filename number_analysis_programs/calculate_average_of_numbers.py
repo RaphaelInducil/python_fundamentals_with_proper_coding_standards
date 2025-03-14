@@ -19,4 +19,11 @@ while True:
 
 # sum numbers to get average // number for input
 # print average
+
+if numbers:
+    average = sum(numbers) / len(numbers)
+    print("Average:", average)
+else:
+    print("No valid numbers were entered.")
+
 # end
