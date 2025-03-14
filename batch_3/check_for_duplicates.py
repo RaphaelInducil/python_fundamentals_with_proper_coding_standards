@@ -10,16 +10,22 @@ numbers = []
 # input number
 
 while True:
-    num = int(input("Enter a number: "))
+    try:
+        num = int(input("Enter a number: "))
 
 # if num is in numbers print duplicates
 # else append num to numbers print unique
 
-    if num in numbers:
-        print("Duplicate")
-    else:
-        print("Unique")
-        numbers.append(num)
+        if num in numbers:
+            print("Duplicate")
+        else:
+            print("Unique")
+            numbers.append(num)
 
 # value error for invalid input
+
+    except ValueError:
+            print("Invalid input. Exiting program.")
+            break
+
 # end
