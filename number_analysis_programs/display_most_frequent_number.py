@@ -10,11 +10,25 @@ numbers = {}
 # if num in numbers count the nummbers
 
 while True:
+    try:
         num = int(input("Enter a number (or any non-numeric value to stop): "))
         if num in numbers:
             numbers[num] += 1
 
 # else dont count
 # value error for invalid input, break
+
+        else:
+            numbers[num] = 1
+    except ValueError:
+        break
+
 # print the number with most duplicate
+
+if numbers:
+    most_frequent = max(numbers, key=numbers.get)
+    print("The number with the most duplicates is:", most_frequent)
+else:
+    print("No valid numbers were entered.")
+
 # end
